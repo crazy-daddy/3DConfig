@@ -11,7 +11,8 @@
 ### the listed folders, just keep that line commented out.        ###
 #####################################################################
 ### Path to your config folder you want to backup
-config_folder=~/printer_data/config
+##config_folder=~/printer_data/config
+config_folder=~/gitconfig
 
 # NOTE: The above should work for just about everyone, but a somewhat
 # recent update to moonraker changed paths, etc. You can run the 
@@ -25,10 +26,10 @@ klipper_folder=~/klipper
 moonraker_folder=~/moonraker
 
 ### Path to your Mainsail folder, by default that is '~/mainsail'
-# mainsail_folder=~/mainsail
+mainsail_folder=~/mainsail
 
 ### Path to your Fluidd folder, by default that is '~/fluidd'
-fluidd_folder=~/fluidd
+# fluidd_folder=~/fluidd
 
 #####################################################################
 #####################################################################
