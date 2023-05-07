@@ -3,3 +3,4 @@
  adxl_results/vibrations/*.tar.gz
 *.bkp
 .theme
+printer.cfg
