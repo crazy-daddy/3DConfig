@@ -3,4 +3,4 @@ adxl_results/belts/*.csv
 adxl_results/vibrations/*.tar.gz
 *.bkp
 .theme
-printer.cfg
+/printer.cfg
