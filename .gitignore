@@ -5,3 +5,7 @@ adxl_results/vibrations/*.tar.gz
 .theme
 /printer.cfg
 !/*/printer.cfg
+moonraker_secrets.ini
+telegram_conf.conf
+telegram.conf
+mooncord.json
