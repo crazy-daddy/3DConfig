@@ -1,3 +1,3 @@
 [submodule "macros/KAMP"]
 	path = macros/KAMP
-	url = https://github.com/kyleisah/Klipper-Adaptive-Meshing-Purging.git
+	url=https://github.com/kyleisah/Klipper-Adaptive-Meshing-Purging.git
