@@ -9,3 +9,4 @@ moonraker_secrets.ini
 telegram_conf.conf
 telegram.conf
 mooncord.json
+/printer-*.cfg
