@@ -1,12 +1,11 @@
 # Voron 0.2 Hardware
 Voron 0.2 configs 
-LDO Kit V0S1, converted to 0.2
+siboor Kit 0.2
 
 Might differ for other kits or sourced parts.
 
 #### Hardware:
- - SKR Pico
- - LDO Picobilical
+ - Gemini v3
  - LDO Revo Hotend (ATC Semitec 104NT-4-R025H42G Thermistor)
  - (Extruder) LDO-36STH20-1004AHG(VRN) RevB
  - (XY) LDO-35STH52-1504AH(VRN) RevB
