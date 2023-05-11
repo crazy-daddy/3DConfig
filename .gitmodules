@@ -1,6 +1,6 @@
 [submodule "macros/AirFilterTimer"]
-	path = macros/AirFilterTimer
+	path = hardware_dependent/AirFilterTimer
 	url = https://github.com/MapleLeafMakers/KlipperMacros
 [submodule "macros/AdaptiveMeshPurge"]
-	path = macros/AdaptiveMeshPurge
+	path = hardware_dependent/AdaptiveMeshPurge
 	url = https://github.com/kyleisah/Klipper-Adaptive-Meshing-Purging.git
