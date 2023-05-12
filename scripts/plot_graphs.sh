@@ -53,7 +53,7 @@ function plot_shaper_graph {
     newfilename="$(echo ${filename} | sed -e "s/\\/tmp\///")"
     date="$(basename "${newfilename}" | cut -d '.' -f1 | awk -F'_' '{print $3"_"$4}')"
     axis="$(basename "${newfilename}" | cut -d '_' -f2)"
-    mv "${filename}" "${isf}"/inputshaper/"${newfilename}"
+    cp "${filename}" "${isf}"/inputshaper/"${newfilename}"
     
     sync && sleep 2
     "${generator}" "${isf}"/inputshaper/"${newfilename}" -o "${isf}"/inputshaper/resonances_"${axis}"_"${date}".png
@@ -67,7 +67,7 @@ function plot_belts_graph {
   
   while read filename; do
     belt="$(basename "${filename}" | cut -d '_' -f4 | cut -d '.' -f1 | sed -e 's/\(.*\)/\U\1/')"
-    mv "${filename}" "${isf}"/belts/belt_"${date_ext}"_"${belt}".csv
+    cp "${filename}" "${isf}"/belts/belt_"${date_ext}"_"${belt}".csv
   done <<< "$(find /tmp -type f -name "raw_data_axis*.csv" 2>&1 | grep -v "Permission")"
   
   sync && sleep 2
@@ -81,7 +81,7 @@ function plot_vibr_graph {
   
   while read filename; do
     newfilename="$(echo ${filename} | sed -e "s/\\/tmp\/adxl345/vibr_${date_ext}/")"
-    mv "${filename}" "${isf}"/vibrations/"${newfilename}"
+    cp "${filename}" "${isf}"/vibrations/"${newfilename}"
   done <<< "$(find /tmp -type f -name "adxl345-*.csv" 2>&1 | grep -v "Permission")"
   
   sync && sleep 2
